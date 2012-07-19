@@ -32,5 +32,5 @@ $ sl-h
 1. If you cannot build on Ubuntu, got error like "curses.h: No such file or directory"
 
 ```bash
-$ curses.h: No such file or directory
+$ sudo apt-get install libncurses5-dev
 ```
