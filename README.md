@@ -29,14 +29,16 @@ $ sl-h
 ```
 
 ##Notice
+
+
 1. If you cannot build on Ubuntu, got error like "curses.h: No such file or directory"
 
-```bash
-$ sudo apt-get install libncurses5-dev
-```
+	```bash
+	$ sudo apt-get install libncurses5-dev
+	```
 
 2. Zsh, you can disable default sl alias by alias the sl to your sl bin, if you use oh-my-zsh, you should put the alias after the oh-my-zsh configuration setup, like the end of '.zshrc' file.
 
-```bash
-$ alias sl='/usr/local/bin/sl'
-```
+	```bash
+	$ alias sl='/usr/local/bin/sl'
+	```
