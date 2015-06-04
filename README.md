@@ -34,3 +34,9 @@ $ sl-h
 ```bash
 $ sudo apt-get install libncurses5-dev
 ```
+
+2. Zsh, you can disable default sl alias by alias the sl to your sl bin, if you use oh-my-zsh, you should put the alias after the oh-my-zsh configuration setup, like the end of '.zshrc' file.
+
+```bash
+$ alias sl='/usr/local/bin/sl'
+```
