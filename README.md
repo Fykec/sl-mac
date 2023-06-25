@@ -4,7 +4,7 @@ sl-mac
 Port Masashi Toyoda's SL (Steam Locomotive) to Mac OS X, certainly available on Linux like Ubuntu
 
 
-##Install Steps
+## Install Steps
 
 Clone
 
@@ -20,7 +20,7 @@ $ make
 $ sudo cp sl /usr/local/bin && chmod a+x /usr/local/bin/sl #need input your password
 ```
 
-##Usage
+## Usage
 
 ```bash
 $ sl
@@ -28,7 +28,7 @@ $ sl-l
 $ sl-h
 ```
 
-##Notice
+## Notice
 
 
 1. If you cannot build on Ubuntu, got error like "curses.h: No such file or directory"
